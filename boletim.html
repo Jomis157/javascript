@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<title>Boletim Escolar</title>
+<body>
+
+<h2>Boletim Escolar</h2>
+
+<script>
+let nota1, nota2, media, frequencia, frequenciaTotal;
+nota1 = parseFloat(prompt("Digite a nota1:   "))
+nota2 = parseFloat(prompt("Digite a nota2:   "))
+media = (nota1+nota2)/2;
+frequencia = parseInt(prompt("Digite a quantidade de faltas"))
+frequenciaTotal = ((20 - frequencia)*100)/20; 
+alert(media);
+alert(frequenciaTotal + "% de frequência");
+
+if(frequenciaTotal<70)
+	alert("Reprovado!");
+	else if(frequenciaTotal>70 && media>4 && media<6)
+		alert("Recuperação")
+else
+	alert("Aprovado");
+
+//document.write(media);
+
+</script>
+</body>
+</html> 
