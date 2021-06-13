@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<title>Gratuidade</title>
+<body>
+
+<h2>Gratuidade em eventos</h2>
+<!--Programa que solicita ao usuário a informação se uma pessoa tem deficiência física (sim ou não) e a idade
+da pessoa. Depois, informe se ela terá entrada liberada em um evento ou se terá que pagar ingresso, sendo
+que terão entrada liberada as pessoas com deficiência física e os idosos (pessoas com 65 anos ou mais).
+
+
+-->
+
+<script>
+let pcd, idade;
+pcd = prompt("Possui deficiência? ")
+idade = parseInt(prompt("Informe a idade:  "))
+if(pcd == "sim" || idade>=65)
+	alert("Gratuidade")    
+    else{
+    	alert("O pagamento obrigatório")
+}
+</script>
+</body>
+</html>
