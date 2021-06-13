@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<title>Operadora</title>
+<body>
+<!--Pergunte ao usuário os dois primeiros números do telefone. Ignore o dı́gito nove que foi adicionado recente-
+mente. Se esses dois primeiros números forem 91 informe que é VIVO, se for 92 informe que é Claro, se for 93
+é TIM, caso não seja nenhum desses peça para escrever o nome da operadora. (Lembrando que é um exemplo
+fictı́cio, sendo assim, não precisa corresponder a realidade) -->
+
+<script>
+let operadora;
+operadora = parseInt(prompt("Digite os dois primeiros dígitos"));
+if(operadora == 92)
+	alert("Claro");
+	else if(operadora == 93)
+		alert("TIM");
+else{
+	operadora = prompt("Qual é a operadora?");
+}
+</script>
+
+</body>
+</html>
